@@ -134,7 +134,7 @@ p{
         height: 190px;
         position: relative;
         border-top: 5px solid rgb(251, 251, 251);
-
+        
         border-radius:15px;     
         box-shadow: 5px 3px 1px rgb(255, 255, 255);
 }
@@ -209,11 +209,11 @@ margin-left: -180;
     }
     .single-page {
         display: grid;
-        background-image: url("./images/bg-hero-mobile.svg");
+        background-image: url("./images/bg-hero-desktop.SVG");
         background-color: #EDFBFE;
         height: 1200px;
-        width: 123%;
-        margin-left: 5px;
+        width: 374%;
+        margin-left: 0px;
     
     }
     .single-page .one{  
