@@ -44,6 +44,30 @@ input[type=submit] {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
+input:required:invalid{
+  outline:none;
+  border: none;
+  border:1px solid hsl(0, 100%, 74%);
+  background-image:url('./images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+}
+input:invalid+span{
+  display: inline;
+  color:hsl(0, 100%, 74%);
+  float:right;
+  font-size: 14px;
+}
+input:valid{
+  outline: none;
+  border: none;
+  border: 1px solid saddlebrown;
+}
+span{
+  display: none;
+}
   
  .edge{
     grid-column: 4;
@@ -340,5 +364,8 @@ margin-left: -180;
         color:#F8F9FB;
         margin-right:  400px;
     }
+    small{
+    right: 120%;
+  }
 
 }
